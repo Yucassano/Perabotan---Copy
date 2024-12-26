@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Cangkir', 'Garpu', 'Gelas', 'Mangkok', 'Piring', 'Pisau', 'Sendok', 'Spatula', 'Talenan', 'Wajan']
+
+roboflow:
+  workspace: fauzan-pjupm
+  project: prabotan
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/fauzan-pjupm/prabotan/dataset/1
